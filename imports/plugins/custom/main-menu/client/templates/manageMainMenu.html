@@ -1,0 +1,7 @@
+<template name="manageMainMenu">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=ManageMainMenuContainer}}
+    </div>
+  {{/if}}
+</template>

@@ -1,0 +1,13 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://root:Hschokay!29@ds235947.mlab.com:35947/stg",
+      "METEOR_DISABLE_OPTIMISTIC_CACHING": 1
+    }
+  },
+  "stripeApiKey": "sk_test_xHia0ySMoSqPUcMD1hvoYRhD",
+  "public": {
+    "mailchimpFormURL": "https://aktively.us3.list-manage.com/subscribe/post?u=9d3fe8212429db65ff383e4df&id=99eb0da426"
+  },
+  "disableSEO": 1
+}

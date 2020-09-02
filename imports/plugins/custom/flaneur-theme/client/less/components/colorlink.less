@@ -1,0 +1,106 @@
+a.color {
+  float: left;
+  margin: 15px;
+  width: 100px;
+  position: relative;
+  .color-sample {
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    // Hide Pantone code display for now
+    line-height: 300px;
+    overflow: hidden;
+  }
+  .color-name {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+  }
+  .swatchbook-remove-button, .swatchbook-add-button {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    padding: 0;
+    display: block;
+  }
+  &:hover {
+    .swatchbook-remove-button, .swatchbook-add-button {
+      display: block;
+      color: red;
+    }
+  }
+}
+.color-div{background-color:#fff; border-radius:2px;}
+a.color .rui.font-icon{float:right;}
+.heart-full {
+  width: 15px;
+  height: 13px;
+  float: right;
+  right: -8px;
+  background-image: url("https://fr-assets.com/images/heartfull.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 15px 13px;
+  top:2px;
+}
+
+.heart-empty {
+  min-width: 15px;
+  min-height: 13px;
+  float: right;
+  right: -8px;
+  background-image: url('https://fr-assets.com/images/heartempty.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 15px 13px;
+  top:2px;
+}
+
+.heart-full:hover {
+  width: 15px;
+  height: 13px;
+  background-size: 15px 13px;
+  float: right;
+  right: -8px;
+  background-image: url('https://fr-assets.com/images/heartempty.png');
+  position: absolute;
+  top:2px;
+}
+
+.heart-empty:hover {
+  width: 15px;
+  height: 13px;
+  float: right;
+  right: -8px;
+  background-image: url("https://fr-assets.com/images/heartfull.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 15px 13px;
+  top:2px;
+}
+
+.heart-empty:active {
+  width: 16px;
+  height: 14px;
+  float: right;
+  right: -8.5px;
+  top: 2px;
+  background-image: url("https://fr-assets.com/images/heartfull.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 16px 14px;
+}
+
+.heart-full:active {
+  width: 16px;
+  height: 14px;
+  float: right;
+  position: absolute;
+  right: -8.5px;
+  top: 2px;
+  background-size: 16px 14px;
+  background-image: url('https://fr-assets.com/images/heartempty.png');
+}

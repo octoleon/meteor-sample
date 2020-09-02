@@ -1,0 +1,9 @@
+import './templates/recommendsActionButtons.html';
+import './templates/recommendsActionButtons';
+import './templates/recommends.html';
+import './templates/recommends';
+import './templates/manageRecommends.html';
+import './templates/manageRecommends';
+import '../lib/collections';
+import '../lib/tables';
+import './less/recommends.less';

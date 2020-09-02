@@ -1,0 +1,13 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://flaneur:hdfyyw63GUY78dfDgf3uey@ds121491-a0.mlab.com:21491,ds121491-a1.mlab.com:21491/dev?replicaSet=rs-ds121491",
+      "METEOR_DISABLE_OPTIMISTIC_CACHING": 1
+    }
+  },
+  "stripeApiKey": "sk_test_xHia0ySMoSqPUcMD1hvoYRhD",
+  "public": {
+    "mailchimpFormURL": "https://aktively.us3.list-manage.com/subscribe/post?u=9d3fe8212429db65ff383e4df&id=99eb0da426"
+  },
+  "disableSEO": 1
+}

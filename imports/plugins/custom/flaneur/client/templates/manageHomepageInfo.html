@@ -1,0 +1,7 @@
+<template name="manageHomepageInfo">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=ManageHomepageInfoContainer}}
+    </div>
+  {{/if}}
+</template>

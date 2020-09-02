@@ -1,0 +1,7 @@
+<template name="manageFeatureLine">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=ManageFeatureLineContainer}}
+    </div>
+  {{/if}}
+</template>

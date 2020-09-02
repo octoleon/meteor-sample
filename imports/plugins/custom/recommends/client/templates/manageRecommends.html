@@ -1,0 +1,7 @@
+<template name="manageRecommends">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=ManageRecommendsContainer}}
+    </div>
+  {{/if}}
+</template>

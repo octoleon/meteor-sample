@@ -1,0 +1,7 @@
+<template name="pages">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=PagesContainer}}
+    </div>
+  {{/if}}
+</template>

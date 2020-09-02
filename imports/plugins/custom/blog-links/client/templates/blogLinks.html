@@ -1,0 +1,7 @@
+<template name="blogLinks">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=BlogLinksContainer}}
+    </div>
+  {{/if}}
+</template>

@@ -1,0 +1,7 @@
+<template name="manageColorHouses">
+  {{#if hasPermission 'admin'}}
+    <div>
+      {{> React component=ManageColorHousesContainer}}
+    </div>
+  {{/if}}
+</template>

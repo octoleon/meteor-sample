@@ -1,0 +1,584 @@
+[
+  {
+    "_id" : "eZMW3xYvseTaXtgR8",
+    "title" : "Duvet Covers",
+    "type" : "simple",
+    "isVisible" : true,
+    "ancestors" : [],
+    "originCountry" : "US",
+    "requiresShipping" : true,
+    "isDeleted" : false,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "template" : "productDetailSimple",
+    "updatedAt" : {
+      "$date": "2018-06-26T13:25:08.893Z"
+    },
+    "workflow" : {
+        "status" : "new"
+    },
+    "isSoldOut" : true,
+    "isLowQuantity" : false,
+    "isBackorder" : true,
+    "price" : {
+        "range" : "360.00 - 425.00",
+        "min" : 360,
+        "max" : 425
+    },
+    "description" : "<p>\nGrey zipper. The understated way to get closure. Discover our Camus duvet cover, finished with this subtle-hued zipper. We headed to Switzerland for the world's finest zippers, the perfect (and only) pairing for our DNA-tested, ultra-soft, 100% Supima® cotton fabric. Explore a spectrum of custom colors, dyed one at a time, inspired by the beauty of nature itself and delivered to you in just 10 days. No shrinking. No pilling. All aaaaaaahs.</p>",
+    "careInstructions" : "<p>Machine wash cold. Tumble dry low. Wash dark colors separately. Do not bleach. Iron with medium heat if needed.</p>",
+    "dimensions" : "<p>\nQueen: 90\" x 92\"<br>\nKing: 106\" x 94\"<br>\nCal King: 102'' x 98''\n</p>",
+    "handle" : "duvet-covers",
+    "createdAt" : {
+      "$date": "2018-06-26T12:33:41.299Z"
+    }
+  },
+  {
+    "_id" : "4upqEnfpCqp8yrWx6",
+    "title" : "Sateen Sheets",
+    "type" : "simple",
+    "isVisible" : true,
+    "ancestors" : [],
+    "originCountry" : "US",
+    "requiresShipping" : true,
+    "isDeleted" : false,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "template" : "productDetailSimple",
+    "updatedAt" : {
+      "$date": "2018-06-26T12:50:37.033Z"
+    },
+    "workflow" : {
+        "status" : "new"
+    },
+    "isSoldOut" : true,
+    "isLowQuantity" : false,
+    "isBackorder" : true,
+    "price" : {
+        "range" : "400.00 - 500.00",
+        "min" : 400,
+        "max" : 500
+    },
+    "description" : "<p>\nDyed and washed one piece at a time in a boutique dye house in Los Angeles, every piece has an incredibly soft hand feel and exclusively rich color that makes it unequivocally, unapologetically, Flaneur.Each sheet set includes a flat sheet, a fitted sheet and two pillowcases.</p>",
+    "careInstructions" : "<p>Machine wash cold. Tumble dry low. Wash dark colors separately. Do not bleach. Iron with medium heat if needed.</p>",
+    "dimensions" : "<p>\nQueen:<br>\nFlat Sheet: 96\" x 112\"<br>\nFitted Sheet: 60\" x 80\" + 16\"<br>\nPillowcases (2): 20\" x 32\"<br>\nKing:<br>\nFlat Sheet: 112\" x 112\"<br>\nFitted Sheet: 78\" x 80\" + 16\"<br>\nPillowcases (2): 20\" x 40\"<br>\nCal King:<br>\nFlat Sheet: 108'' x 116''<br>\nFitted Sheet: 72'' x 84'' + 16''<br>\nPillowcases (2): 20'' x 40''<br>\n</p>",
+    "handle" : "sateen-sheets",
+    "createdAt" : {
+      "$date": "2018-06-26T12:33:41.323Z"
+    }
+  },
+  {
+    "_id" : "DaPnrGybWWbAaayeg",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6"
+    ],
+    "type" : "variant",
+    "title" : "Queen",
+    "price" : 0,
+    "inventoryQuantity" : 0,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "Untitled Option",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "8de38XcHBasHxyvhB",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6",
+        "DaPnrGybWWbAaayeg"
+    ],
+    "type" : "variant",
+    "title" : "Queen - No Pillowcase",
+    "price" : 400,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "No Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "ycdME6Xt8CPaP6BHW",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6",
+        "DaPnrGybWWbAaayeg"
+    ],
+    "type" : "variant",
+    "title" : "Queen - With Pillowcase",
+    "price" : 425,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "With Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "rHuaP45RuuuzozvGB",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6"
+    ],
+    "type" : "variant",
+    "title" : "King",
+    "price" : 0,
+    "inventoryQuantity" : 0,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "Untitled Option",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "SXiL72pNfqNMwDqk5",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6",
+        "rHuaP45RuuuzozvGB"
+    ],
+    "type" : "variant",
+    "title" : "King - No Pillowcase",
+    "price" : 450,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "No Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "fZhACAyHLX7e7zadB",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6",
+        "rHuaP45RuuuzozvGB"
+    ],
+    "type" : "variant",
+    "title" : "King - With Pillowcase",
+    "price" : 475,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "With Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "8c7N2kgNJXHMoJDGv",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6"
+    ],
+    "type" : "variant",
+    "title" : "CA King",
+    "price" : 0,
+    "inventoryQuantity" : 0,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "Untitled Option",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "ZipwnRGg2nqACeS7p",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6",
+        "8c7N2kgNJXHMoJDGv"
+    ],
+    "type" : "variant",
+    "title" : "CA King - No Pillowcase",
+    "price" : 475,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "No Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "mkTiheF25F3SkXPBq",
+    "ancestors" : [
+        "4upqEnfpCqp8yrWx6",
+        "8c7N2kgNJXHMoJDGv"
+    ],
+    "type" : "variant",
+    "title" : "CA King - With Pillowcase",
+    "price" : 500,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "With Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "TxNvEbrjSRuaZHd6H",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8"
+    ],
+    "type" : "variant",
+    "title" : "Queen",
+    "price" : 0,
+    "inventoryQuantity" : 0,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "Untitled Option",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "wzSLYdJYYnfrXPMBf",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8",
+        "TxNvEbrjSRuaZHd6H"
+    ],
+    "type" : "variant",
+    "title" : "Queen - No Pillowcase",
+    "price" : 360,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "No Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "QaAzZ69RMBxkw7zz5",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8",
+        "TxNvEbrjSRuaZHd6H"
+    ],
+    "type" : "variant",
+    "title" : "Queen - With Pillowcase",
+    "price" : 385,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "With Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "37aiXY3a6SpSPcxXd",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8"
+    ],
+    "type" : "variant",
+    "title" : "King",
+    "price" : 0,
+    "inventoryQuantity" : 0,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "Untitled Option",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "Pt6ZioEghBW5LbdQb",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8",
+        "37aiXY3a6SpSPcxXd"
+    ],
+    "type" : "variant",
+    "title" : "King - No Pillowcase",
+    "price" : 390,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "No Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "pYMZsjgLs5mep6crz",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8",
+        "37aiXY3a6SpSPcxXd"
+    ],
+    "type" : "variant",
+    "title" : "King - With Pillowcase",
+    "price" : 415,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "With Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "79PgPJQ3yhMQwZnYi",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8"
+    ],
+    "type" : "variant",
+    "title" : "CA King",
+    "price" : 0,
+    "inventoryQuantity" : 0,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "Untitled Option",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "L2FQNMvBPkmZGtgkR",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8",
+        "79PgPJQ3yhMQwZnYi"
+    ],
+    "type" : "variant",
+    "title" : "CA King - No Pillowcase",
+    "price" : 400,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "No Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  },
+  {
+    "_id" : "79QsuKAixqyBSMSnQ",
+    "ancestors" : [
+        "eZMW3xYvseTaXtgR8",
+        "79PgPJQ3yhMQwZnYi"
+    ],
+    "type" : "variant",
+    "title" : "CA King - With Pillowcase",
+    "price" : 425,
+    "inventoryQuantity" : 100,
+    "isDeleted" : false,
+    "compareAtPrice" : 0,
+    "weight" : 0,
+    "length" : 0,
+    "width" : 0,
+    "height" : 0,
+    "inventoryManagement" : true,
+    "inventoryPolicy" : false,
+    "lowInventoryWarningThreshold" : 0,
+    "isVisible" : true,
+    "shopId" : "J8Bhq3uTtdgwZx3rz",
+    "taxable" : true,
+    "taxCode" : "0000",
+    "optionTitle" : "With Pillowcase",
+    "workflow" : {
+        "status" : "new"
+    },
+    "originCountry" : "US"
+  }
+]

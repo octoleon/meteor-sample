@@ -1,0 +1,643 @@
+/* button
+------------------------- */
+
+.groups .button {
+  display: inline-block;
+  padding:0px;
+  margin-bottom: 10px;
+  font-family:'montserrat';
+  font-size:10px;
+  margin:10px;
+  display: inline-block;
+  /* padding: 5px 15px; */
+  margin-bottom: 10px;
+  font-family: 'montserrat';
+  font-size: 10px;
+  margin: 0px 5px 2px 5px;
+}
+
+.groups .button:enabled {
+  cursor: pointer;
+}
+
+.groups .button:enabled:hover {
+    font-weight:600;
+}
+
+.groups .button.is-checked,
+.groups .button.is-selected {
+  background-color: #fffcf5;
+  color: #000;
+  font-weight:600;
+}
+
+.groups .button:active {
+    font-weight:600;
+  background-color: #59F;
+  color:#000;
+
+}
+
+/* hide radio inputs */
+.groups .button input[type="radio"] { display: none; }
+
+/* ---- button-group ---- */
+
+.groups .button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.groups .button-group .groups .button {
+
+  border-radius: 0;
+  margin-left: -1px;
+}
+
+.groups .button-group .groups .button:first-child { border-radius: 5px 0 0 5px; }
+.groups .button-group .groups .button:last-child { border-radius: 0 5px 5px 0; }
+
+
+/* element-item
+------------------------- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 425px;
+  margin: 8px;
+
+  background: #888;
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: relative;
+  height: 90px;
+ font-family: 'cormorant';
+  font-size:14px;
+ padding:15px 15px 15px 15px;
+}
+
+.element-item.alkali          {  background-color:#f7f4ef;}
+.element-item.alkaline-earth  {  background-color:#f7f4ef;}
+.element-item.lanthanoid      {  background-color:#f7f4ef;}
+.element-item.actinoid        {  background-color:#f7f4ef;}
+.element-item.transition      {  background-color:#f7f4ef;}
+.element-item.post-transition {  background-color:#f7f4ef;}
+.element-item.metalloid       {  background-color:#f7f4ef;}
+.element-item.diatomic        {  background-color:#f7f4ef;}
+.element-item.halogen         {  background-color:#f7f4ef;}
+.element-item.noble-gas       {  background-color:#f7f4ef;}
+
+/* button overwrites
+------------------------- */
+
+.groups .button {
+  border-color: #222;
+  color:#000;
+}
+
+
+/* grid
+------------------------- */
+
+.grid {
+  position: relative;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- fit-width ---- */
+
+/* centered */
+.grid--fit-width {
+  margin: 0 auto;
+}
+
+/* grid-image-item
+------------------------- */
+
+.grid-image-item,
+.grid--images .grid-sizer { width: 33.33%; }
+
+.grid-image-item {
+  float: left;
+}
+
+.grid-image-item img {
+  display: block;
+  max-width: 100%;
+}
+
+/* grid-item
+------------------------- */
+
+.grid-item {
+  float: left;
+  width: 300px !important;
+  height: 300px !important;
+  background: #e6e5e4;
+  border: 2px solid hsla(0, 0%, 0%, 0.4);
+}
+
+.grid-item--width2 { width: 100px; }
+.grid-item--height2 { height: 100px; }
+
+.grid-item--width3 { width: 150px; }
+.grid-item--height3 { height: 150px; }
+
+.grid-item--gigante {
+  width: 150px;
+  height: 200px;
+}
+
+.grid--clickable .grid-item:hover {
+  border-color: #28F;
+  background: #8CF;
+  cursor: pointer;
+}
+
+/* ---- insert demo ---- */
+
+.grid-item .number {
+  line-height: 50px;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+/* ---- fluid-5-col ---- */
+
+.grid--fluid-5-col .grid-item,
+.grid--fluid-5-col .grid-sizer { width: 20%; }
+
+.grid--fluid-5-col .grid-item--width2 { width: 40%; }
+
+/* ---- grid--masonry-gutter ---- */
+
+.grid--has-gutter .grid-item--width2 {
+  width: 110px;
+}
+
+/* ---- grid--masonry-gutter-bottom ---- */
+
+.grid--masonry-gutter-bottom .grid-item {
+  margin-bottom: 10px;
+}
+
+.grid--masonry-gutter-bottom .grid-item--height2 {
+  height: 110px;
+}
+
+/* ---- grid--packery-gutter ---- */
+
+.grid--packery-gutter .grid-item--width2 { width: 110px; }
+.grid--packery-gutter .grid-item--height2 { height: 110px; }
+
+/* ---- grid--fluid-gutter ---- */
+
+.grid--fluid-gutter .grid-item,
+.grid--fluid-gutter .grid-sizer {
+  width: 22%;
+}
+
+.grid--fluid-gutter .gutter-sizer {
+  width: 4%;
+}
+
+.grid--fluid-gutter .grid-item--width2 {
+  width: 48%;
+}
+
+/* ---- masonry-horizontal ---- */
+
+.grid--masonry-horizontal-gutter .grid-item--height2 {
+  height: 110px;
+}
+
+/* ----  ---- */
+
+.grid--masonry-horizontal-gutter-right .grid-item {
+  margin-right: 10px;
+}
+
+.grid--masonry-horizontal-gutter-right .grid-item--width2 {
+  width: 110px;
+}
+
+/* ---- cells-by-row-element-sizing ---- */
+
+.grid--cells-by-row-element-sizing .grid-item {
+  width: 13%;
+}
+
+.grid--cells-by-row-element-sizing .grid-item--width2 {
+  width: 23%;
+}
+
+.grid--cells-by-row-element-sizing .grid-sizer {
+  width: 25%;
+  height: 110px;
+}
+
+/* ---- cells-by-column-element-sizing ---- */
+
+.grid--cells-by-column-element-sizing .grid-item {
+  height: 13%;
+}
+
+.grid--cells-by-column-element-sizing .grid-item--width2 {
+  height: 23%;
+}
+
+.grid--cells-by-column-element-sizing .grid-sizer {
+  height: 25%;
+  width: 110px;
+}
+
+/* ---- fitrows-gutter ---- */
+
+.grid--fit-rows-gutter .grid-item--width2 { width: 110px; }
+.grid--fit-rows-gutter .grid-item--width3 { width: 170px; }
+
+/* ---- filter blocks ---- */
+
+.grid-item--filter-block-red,
+.grid-item--filter-block-blue {
+  width: 60px;
+  height: 60px;
+}
+
+.grid--filter-blocks-large .grid-item--filter-block-red,
+.grid--filter-blocks-large .grid-item--filter-block-blue {
+  width: 80px;
+  height: 80px;
+}
+
+.grid-item--filter-block-red { background: #D00; }
+.grid-item--filter-block-blue { background: #19F; }
+
+/* ---- horizontal order ---- */
+
+.grid--hor-order .grid-item {
+  width: 100px;
+  height: 80px;
+}
+
+.grid--hor-order .grid-item--height2 { height: 100px; }
+.grid--hor-order .grid-item--height3 { height: 120px; }
+
+
+.element-item {width:296px; height:425px;padding:0px; margin:8px; background-color:#f7f4ef;}.grid{background-color:#fffcf5;}
+.book{width:940px;margin-left:auto; margin-right:auto;}
+.grid img{max-width:296px; max-height:296px;}
+.filed_under{
+padding: 10px;
+letter-spacing: -.2px;
+/* position: relative; */
+background-color: #e4e1dd;
+font-family: 'courier';
+font-size: 10px;}
+span#filed_under_icon{background-color: #d4d1cd; border:.5px solid #92908d;
+padding: 2px 4px 2px 4px;
+border-radius: 2px;
+font-family: 'montserrat';}
+
+.groups .button.one{background-image: url('https://fr-assets.com/images/scoval1.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;}
+.groups .button.two{background-image: url('https://fr-assets.com/images/scoval2.png');
+background-repeat: no-repeat;
+background-size: 90px;
+width: 90px;
+background-color: #fffcf5;
+border: 0px;
+height: 80px;}
+.groups .button.three{background-image: url('https://fr-assets.com/images/scoval3.png');
+background-repeat: no-repeat;
+background-size: 90px;
+width: 90px;
+background-color: #fffcf5;
+border: 0px;
+height: 90px;
+}
+.groups .button.four{background-image: url('https://fr-assets.com/images/scoval5.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 70px;
+
+}
+.groups .button.five{background-image: url('https://fr-assets.com/images/scoval6.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 65px;
+}
+.groups .button.six{background-image: url('https://fr-assets.com/images/scoval7.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.seven{background-image: url('https://fr-assets.com/images/scoval8.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.eight{background-image: url('https://fr-assets.com/images/scoval4.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.nine{background-image: url('https://fr-assets.com/images/scoval7.png');
+background-repeat: no-repeat;
+background-size: 65px;
+width: 65px;
+background-color: #fffcf5;
+border: 0px;
+height: 50px;
+
+}
+.groups .button.ten{background-image: url('https://fr-assets.com/images/scoval6.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.eleven{background-image: url('https://fr-assets.com/images/scoval5.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.twelve{background-image: url('https://fr-assets.com/images/scoval3.png');
+background-repeat: no-repeat;
+background-size: 60px;
+width: 60px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.thirteen{background-image: url('https://fr-assets.com/images/scoval2.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;}
+.groups .button.fourteen{background-image: url('https://fr-assets.com/images/scoval1.png');
+background-repeat: no-repeat;
+background-size: 95px;
+width: 95px;
+background-color: #fffcf5;
+border: 0px;
+height: 80px;
+}
+.groups .button.fifteen{background-image: url('https://fr-assets.com/images/scoval1.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 70px;}
+.groups .button.sixteen{background-image: url('https://fr-assets.com/images/scoval4.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 65px;
+}
+.groups .button.one.is-checked{background-image: url('https://fr-assets.com/images/scovalhover1.png');
+}
+.groups .button.two.is-checked{background-image: url('https://fr-assets.com/images/scovalhover2.png');
+}
+.groups .button.three.is-checked{background-image: url('https://fr-assets.com/images/scovalhover3.png');
+
+}
+.groups .button.four.is-checked{background-image: url('https://fr-assets.com/images/scovalhover5.png');
+}
+.groups .button.five.is-checked{background-image: url('https://fr-assets.com/images/scovalhover6.png');
+}
+.groups .button.six.is-checked{background-image: url('https://fr-assets.com/images/scovalhover7.png');
+}
+.groups .button.seven.is-checked{background-image: url('https://fr-assets.com/images/scovalhover8.png');
+}
+.groups .button.eight.is-checked{background-image: url('https://fr-assets.com/images/scovalhover4.png');
+}
+.groups .button.nine.is-checked{background-image: url('https://fr-assets.com/images/scovalhover7.png');
+}
+.groups .button.ten.is-checked{background-image: url('https://fr-assets.com/images/scovalhover6.png');
+}
+.groups .button.eleven.is-checked{background-image: url('https://fr-assets.com/images/scovalhover5.png');}
+
+.groups .button.twelve.is-checked{background-image: url('https://fr-assets.com/images/scovalhover3.png');
+}
+.groups .button.thirteen.is-checked{background-image: url('https://fr-assets.com/images/scovalhover2.png');
+}
+.groups .button.fourteen.is-checked{background-image: url('https://fr-assets.com/images/scovalhover1.png');
+}
+.groups{display: block;
+
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 890px;}
+.groups .button:active{color:#000;}
+@media screen and (max-width: 991px){.book{width:100%;}
+.grid{margin:10px;} .element-item{width:265px;HEIGHT:415px;}img.grid_image{min-width: 265px;
+max-width: 265px;
+max-height: 265px;}
+.groups .button.one{background-image: url('https://fr-assets.com/images/scoval1.png');
+background-repeat: no-repeat;
+background-size: 65px;
+width: 65px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;}
+.groups .button.two{background-image: url('https://fr-assets.com/images/scoval2.png');
+background-repeat: no-repeat;
+background-size: 72px;
+width: 72px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;}
+.groups .button.three{background-image: url('https://fr-assets.com/images/scoval3.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 75px;
+}
+.groups .button.four{background-image: url('https://fr-assets.com/images/scoval5.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+
+}
+.groups .button.five{background-image: url('https://fr-assets.com/images/scoval6.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 71px;
+}
+.groups .button.six{background-image: url('https://fr-assets.com/images/scoval7.png');
+background-repeat: no-repeat;
+background-size: 59px;
+width: 59px;
+background-color: #fffcf5;
+border: 0px;
+height: 50px;
+
+}
+.groups .button.seven{background-image: url('https://fr-assets.com/images/scoval8.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;
+}
+.groups .button.eight{background-image: url('https://fr-assets.com/images/scoval4.png');
+background-repeat: no-repeat;
+background-size: 60px;
+width: 60px;
+background-color: #fffcf5;
+border: 0px;
+height: 50px;
+}
+.groups .button.nine{background-image: url('https://fr-assets.com/images/scoval7.png');
+background-repeat: no-repeat;
+background-size: 60px;
+width: 60px;
+background-color: #fffcf5;
+border: 0px;
+height: 50px;
+}
+.groups .button.ten{background-image: url('https://fr-assets.com/images/scoval6.png');
+background-repeat: no-repeat;
+background-size: 60px;
+width: 60px;
+background-color: #fffcf5;
+border: 0px;
+height: 55px;
+}
+.groups .button.eleven{background-image: url('https://fr-assets.com/images/scoval5.png');
+background-repeat: no-repeat;
+background-size: 60px;
+width: 60px;
+background-color: #fffcf5;
+border: 0px;
+height: 50px;
+}
+.groups .button.twelve{background-image: url('https://fr-assets.com/images/scoval3.png');
+background-repeat: no-repeat;
+background-size: 50px;
+width: 50px;
+background-color: #fffcf5;
+border: 0px;
+height: 50px;
+}
+.groups .button.thirteen{background-image: url('https://fr-assets.com/images/scoval2.png');
+background-repeat: no-repeat;
+background-size: 59px;
+width: 59px;
+background-color: #fffcf5;
+border: 0px;
+height: 55px;
+}
+.groups .button.fourteen{background-image: url('https://fr-assets.com/images/scoval1.png');
+background-repeat: no-repeat;
+background-size: 70px;
+width: 70px;
+background-color: #fffcf5;
+border: 0px;
+height: 60px;}
+.groups .button.sixteen{background-image: url('https://fr-assets.com/images/scoval4.png');
+background-repeat: no-repeat;
+background-size: 80px;
+width: 80px;
+background-color: #fffcf5;
+border: 0px;
+height: 65px;}
+.ui-group{padding:0px;}
+.groups .button{padding:none; margin:2px; font-size:11px;}
+.groups{width:100%;}
+}
+.ui-group p.paragraph{  margin-top: 0px;
+  padding: 10px 10px 10px 10px;
+  font-family: 'montserrat', serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: left;}

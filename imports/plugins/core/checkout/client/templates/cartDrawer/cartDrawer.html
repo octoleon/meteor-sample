@@ -1,0 +1,35 @@
+<template name="cartDrawer">
+  <div id="cart-drawer-container">
+    {{> displayCartDrawer}}
+  </div>
+</template>
+
+
+<template name="emptyCartDrawer">
+  <div id="cart-modal-container">
+    <div id="cart-modal">
+      <div id="cart-modal-close">
+        <i class="rui font-icon fa-lg fa fa-times"></i>
+      </div>
+      <div>
+        {{> React component=EmptyCartDrawer}}
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<template name="openCartDrawer">
+  <div class="cart-drawer" id="cart-drawer">
+    <div id="cart-modal-container">
+      <div id="cart-modal">
+        <div id="cart-modal-close">
+          <i class="rui font-icon fa-lg fa fa-times"></i>
+        </div>
+        <div>
+          {{> React component=CartDrawerContainer}}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
